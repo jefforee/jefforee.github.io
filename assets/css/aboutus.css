@@ -1,0 +1,273 @@
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+
+.navbar {
+    animation: fadeIn 0.8s;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar #nav_options {
+    color: whitesmoke;
+    margin-left: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    z-index: 999;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar #nav_options:hover {
+    font-size: 21px;
+    font-size-adjust: 20px;
+	cursor: pointer;
+}
+
+
+.curve {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 35%;
+
+    shape-outside:circle();
+    width: 30%;
+	height: auto;
+	float: left;
+	margin-right:2rem; 
+    z-index: 1;
+}
+
+.curve1 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 35%;
+    shape-outside:circle();
+    width: 30%;
+	height: auto;
+	float: left;
+	margin-right:2rem; 
+    z-index: 2;
+    opacity: 0;
+
+}
+
+.curveImg {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.curve1:hover {
+    animation: fadeIn 1s;
+    opacity: 1;
+
+}
+
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0; 
+    }
+	100% { 
+        opacity: 1; 
+    }
+
+}
+@keyframes fadeOut {
+    0% { 
+        opacity: 1; 
+    }
+	100% { 
+        opacity: 0; 
+    }
+
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#logo {
+    position: relative;
+    z-index: 999;
+    page-break-after: auto;
+}
+
+#white {
+    background: white;
+}
+#red {
+    background: #C80000;
+}
+
+#words {
+    margin-top: -25px;
+    max-width: 1500px;
+}
+h1 {
+    background: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 0.3;
+    overflow-wrap: normal;
+}
+
+h2, h3, p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    overflow-wrap: normal;
+
+}
+
+
+h2 {
+    font-style: italic;
+    font-weight: 300;
+    overflow-wrap: normal;
+
+}
+
+h3 {
+    font-size: 45px;
+    overflow-wrap: normal;
+
+}
+
+#pfp {
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    padding-bottom: 50px;
+}
+
+#pfp img {
+    margin-right: 50px;
+}
+
+#pfp p {
+    max-width: 1000px;
+}
+
+
+
+/* Wave */
+section{
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}
+
+section .wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: url("../img/wave.png");
+    background-size: 1200px 200px;
+}
+
+section .wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: url("../img/wave.png");
+    background-size: 1200px 200px;
+}
+
+section .wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: url("../img/wave.png");
+    background-size: 1500px 200px;
+}
+
+section .wave1 {
+    animation: movement1 100s linear infinite;
+    z-index: 10;
+    opacity: 0.9;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+section .wave2 {
+    animation: movement2 120s linear infinite;
+    z-index: 10;
+    opacity: 0.8;
+    animation-delay: -10s;
+    bottom: -15;
+}
+
+section .wave3 {
+    animation: movement1 140s linear infinite;
+    z-index: 10;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: -25;
+}
+
+@keyframes movement1 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 20000px;
+    }  
+}
+
+@keyframes movement2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -20000px;
+    }
+    
+}
+
+/* Mac */
+.mac #white {
+    margin-top: -50px;
+}
+
+.mac #white #words {
+    margin-left: 150px;
+    margin-right: 150px;
+}

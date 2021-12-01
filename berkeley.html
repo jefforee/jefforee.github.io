@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <title>Random Restaurant Generator</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel = "icon" href = "assets/img/RRG Icon.png" type = "image/x-icon">
+    </head>
+
+
+    <body style="background-color: #C80000;">
+        <div id = "title_page">
+            <div class="navbar">
+                <a href="index.html", id="nav_options">HOME</a>
+                <a href="berkeley.html", id="nav_options">BERKELEY</a>
+                <a href="elkgrove.html", id="nav_options">ELK GROVE</a>
+                <a href="aboutUs.html", id="nav_options">ABOUT US</a>
+            </div>
+            <div id="title">
+                <p id="name">random<br>restaurant<br>generator.</p>
+                <h1>LOCATION: BERKELEY</h1>
+                <button id="button">FIND NOW</button>
+            </div>
+        </div>
+
+        <section>
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </section>
+        
+        <div id="overlay", class="overlay hidden"></div>
+
+        
+
+        <div id = "foods" class = "food_box hidden">
+            <div id = "food_pic">
+                <img id="pic" src="assets/img/In-N-Out-night.jpg">
+            </div>
+            <div id = "food_desc">
+                <div id = "information">
+                    <h1 id="restaurantName">In-N-Out Burger</h1>
+                    <div id="info"><h2>Rating:</h2><p id="stars">&nbsp★★★★☆</p></div>
+                    <div id="info"><h2>Cuisine:</h2><p id="cuisine">&nbspAmerican</p></div>
+                    <div id="info"><h2>Address:</h2><p id="address">&nbsp6317 College Ave, <br>Oakland, CA 94618</p></div> 
+                </div>
+                <div id = "food_items">
+                    <h2>Suggested Items: </h2>
+                    <div id="food"><img id="item1" src="https://img.icons8.com/plasticine/100/000000/hamburger.png"/><h3 id="item1_name">Double-Double</h3></div>
+                    <div id="food"><img id="item2" src="https://img.icons8.com/plasticine/100/000000/french-fries.png"/><h3 id="item2_name">Animal Style Fries</h3></div>
+                    <div id="food"><img id="item3" src="https://img.icons8.com/plasticine/100/000000/milk-bottle.png"/><h3 id="item3_name">Nepolitian Milk Shake</h3></div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="assets/scripts/berk.js"></script>
+    </body>
+
+</html>
+
