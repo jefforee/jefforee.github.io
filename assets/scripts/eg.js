@@ -60,7 +60,7 @@ var chickFilA = ["Chick-fil-A", "&nbsp★★★★★", "&nbsp American", "&nbsp
 var sojoRamen = ["Sojo Ramen", "&nbsp★★★★★", "&nbsp Japanese", "&nbsp 2475 Telegraph Ave, <br> Berkeley, CA 94704", "https://img.icons8.com/plasticine/100/000000/noodles.png", "Black Garlic Tonkotsu Ramen", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Furikake Fries", "https://img.icons8.com/plasticine/100/000000/octopus.png", "Chili Garlic Calamari", "assets/img/sojoRamen.jpg"];
 var jacks = ["Jack's Urban Eats", "&nbsp★★★★☆", "&nbsp American", "&nbsp 7701 Laguna Blvd #420, <br>Elk Grove, CA 95758", "https://img.icons8.com/plasticine/100/000000/hamburger.png", "BBQ Tri-Tip", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Urban Fries", "https://img.icons8.com/plasticine/100/000000/cola.png", "Coca-cola", "assets/img/jacks.jpg"];
 
-
+/* */ 
 var sacLoc = [inNOut, texasRoadhouse, chipotle, bj, leatherbys, osaka, phoLe, landl, chickFilA, jacks];
 var foodID = "foods";
 
