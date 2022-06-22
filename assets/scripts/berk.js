@@ -59,9 +59,9 @@ var landl = ["L&L", "&nbsp★★★★☆", "&nbsp Hawaiian", "&nbsp 7419 Laguna
 var chickFilA = ["Chick-fil-A", "&nbsp★★★★★", "&nbsp American", "&nbsp 8430 Bond Rd, <br> Elk Grove, CA 95624", "https://img.icons8.com/plasticine/100/000000/hamburger.png", "Deluxe Sandwich", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Waffle Potato Fries", "https://img.icons8.com/plasticine/100/000000/milk-bottle.png", "Oreo Milkshake", "assets/img/chickFilA.png"];
 var sojoRamen = ["Sojo Ramen", "&nbsp★★★★★", "&nbsp Japanese", "&nbsp 2475 Telegraph Ave, <br> Berkeley, CA 94704", "https://img.icons8.com/plasticine/100/000000/noodles.png", "Black Garlic Tonkotsu Ramen", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Furikake Fries", "https://img.icons8.com/plasticine/100/000000/octopus.png", "Chili Garlic Calamari", "assets/img/sojoRamen.jpg"];
 var jacks = ["Jack's Urban Eats", "&nbsp★★★★☆", "&nbsp American", "&nbsp 7701 Laguna Blvd #420, <br>Elk Grove, CA 95758", "https://img.icons8.com/plasticine/100/000000/hamburger.png", "BBQ Tri-Tip", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Urban Fries", "https://img.icons8.com/plasticine/100/000000/cola.png", "Coca-cola", "assets/img/jacks.jpg"];
+var laNote = ["La Note", "&nbsp★★★★☆", "&nbsp French", "&nbsp 2377 Shattuck Ave, <br>Berkeley, CA 94704", "https://img.icons8.com/plasticine/100/000000/pancake.png", "Brioche Pain Perdu", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Rosemary-Garlic Homefries", "https://img.icons8.com/plasticine/100/000000/belgian-waffle.png", "Toasted Cinnamon Brioche", "assets/img/laNote.jpeg"];
 
-
-var berkeleyLoc = [inNOut, chipotle, gypsys, socialClub, immThai, mezzo, pokeBar, pokeParlor, littleGem, slivers, sojoRamen];
+var berkeleyLoc = [inNOut, chipotle, gypsys, socialClub, immThai, mezzo, pokeBar, pokeParlor, littleGem, slivers, sojoRamen, laNote];
 var foodID = "foods";
 
 

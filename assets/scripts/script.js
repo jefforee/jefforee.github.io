@@ -1,5 +1,6 @@
 function unhideFoodBox() {
-	var randomRestaurant = foodLocations[Math.floor(Math.random()*foodLocations.length)];
+	// var randomRestaurant = foodLocations[Math.floor(Math.random()*foodLocations.length)];
+	var randomRestaurant = laNote; /*Test locations*/
 	document.getElementById('restaurantName').innerHTML = randomRestaurant[0];
 	document.getElementById('stars').innerHTML = randomRestaurant[1];
 	document.getElementById('cuisine').innerHTML = randomRestaurant[2];
@@ -38,7 +39,7 @@ function unideFoodBox(foodItem) {
 10.restaurant pic
 */
 
-
+/*Icon Link: https://icons8.com/icon/set/food/plasticine*/
 var inNOut = ["In-N-Out Burger", "&nbsp★★★★☆", "&nbspAmerican", "&nbsp Multiple Locations", "https://img.icons8.com/plasticine/100/000000/hamburger.png", "Double-Double", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Animal Style Fries", "https://img.icons8.com/plasticine/100/000000/milk-bottle.png", "Nepolitian Milk Shake", "assets/img/in_n_out.jpg"];
 var texasRoadhouse = ["Texas Roadhouse", "&nbsp★★★★★ (Personal Favorite)", "&nbspAmerican", "&nbsp 8094 Orchard Loop Ln, <br>Elk Grove, CA 95624", "https://img.icons8.com/plasticine/100/000000/steak.png", "Rib-eye Steak", "https://img.icons8.com/plasticine/100/000000/bread.png", "House Rolls (free)", "https://img.icons8.com/plasticine/100/000000/citrus.png", "Strawberry Lemonade", "assets/img/TexasRoadhouse.jpg"];
 var chipotle = ["Chipotle", "&nbsp★★★☆☆", "&nbspMexican", "&nbsp Multiple Locations", "https://img.icons8.com/plasticine/100/000000/wrap.png", "Chicken Burrito/Bowl", "https://img.icons8.com/plasticine/100/000000/nachos.png", "Chips & Guacamole", "https://img.icons8.com/plasticine/100/000000/cola.png", "Coca-Cola", "assets/img/chipotle.jpeg"];
@@ -59,12 +60,12 @@ var landl = ["L&L", "&nbsp★★★★☆", "&nbsp Hawaiian", "&nbsp 7419 Laguna
 var chickFilA = ["Chick-fil-A", "&nbsp★★★★★", "&nbsp American", "&nbsp 8430 Bond Rd, <br> Elk Grove, CA 95624", "https://img.icons8.com/plasticine/100/000000/hamburger.png", "Deluxe Sandwich", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Waffle Potato Fries", "https://img.icons8.com/plasticine/100/000000/milk-bottle.png", "Oreo Milkshake", "assets/img/chickFilA.png"];
 var sojoRamen = ["Sojo Ramen", "&nbsp★★★★★", "&nbsp Japanese", "&nbsp 2475 Telegraph Ave, <br> Berkeley, CA 94704", "https://img.icons8.com/plasticine/100/000000/noodles.png", "Black Garlic Tonkotsu Ramen", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Furikake Fries", "https://img.icons8.com/plasticine/100/000000/octopus.png", "Chili Garlic Calamari", "assets/img/sojoRamen.jpg"];
 var jacks = ["Jack's Urban Eats", "&nbsp★★★★☆", "&nbsp American", "&nbsp 7701 Laguna Blvd #420, <br>Elk Grove, CA 95758", "https://img.icons8.com/plasticine/100/000000/hamburger.png", "BBQ Tri-Tip", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Urban Fries", "https://img.icons8.com/plasticine/100/000000/cola.png", "Coca-cola", "assets/img/jacks.jpg"];
+var laNote = ["La Note", "&nbsp★★★★☆", "&nbsp French", "&nbsp 2377 Shattuck Ave, <br>Berkeley, CA 94704", "https://img.icons8.com/plasticine/100/000000/pancake.png", "Brioche Pain Perdu", "https://img.icons8.com/plasticine/100/000000/french-fries.png", "Rosemary-Garlic Homefries", "https://img.icons8.com/plasticine/100/000000/belgian-waffle.png", "Toasted Cinnamon Brioche", "assets/img/laNote.jpeg"];
 
-
-var berkeleyLoc = [inNOut, chipotle, gypsys, socialClub, immThai, mezzo, pokeBar, pokeParlor, littleGem, slivers, sojoRamen];
+var berkeleyLoc = [inNOut, chipotle, gypsys, socialClub, immThai, mezzo, pokeBar, pokeParlor, littleGem, slivers, sojoRamen, laNote];
 var sacLoc = [inNOut, texasRoadhouse, chipotle, bj, leatherbys, osaka, phoLe, landl, chickFilA, jacks];
 
-var foodLocations = [inNOut, texasRoadhouse, chipotle, bj, leatherbys, gypsys, osaka, phoLe, socialClub, immThai, mezzo, pokeBar, pokeParlor, littleGem, slivers, landl, chickFilA, sojoRamen, jacks];
+var foodLocations = [inNOut, texasRoadhouse, chipotle, bj, leatherbys, gypsys, osaka, phoLe, socialClub, immThai, mezzo, pokeBar, pokeParlor, littleGem, slivers, landl, chickFilA, sojoRamen, jacks, laNote];
 var foodID = "foods";
 
 
