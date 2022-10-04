@@ -1,6 +1,6 @@
 function unhideFoodBox() {
-	// var randomRestaurant = foodLocations[Math.floor(Math.random()*foodLocations.length)];
-	var randomRestaurant = laNote; /*Test locations*/
+	var randomRestaurant = foodLocations[Math.floor(Math.random()*foodLocations.length)];
+	// var randomRestaurant = laNote; /*Test locations*/
 	document.getElementById('restaurantName').innerHTML = randomRestaurant[0];
 	document.getElementById('stars').innerHTML = randomRestaurant[1];
 	document.getElementById('cuisine').innerHTML = randomRestaurant[2];
